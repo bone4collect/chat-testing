@@ -5,7 +5,7 @@ import Gun from "gun";
 
 export default function Home() {
   useEffect(() => {
-    const gun = Gun('https://solciety-gun-nodess.onrender.com').get("thoughts");
+    const gun = Gun('https://solciety-gun-nodess.onrender.com/gun').get("thoughts");
     $("form").on("submit", function (event) {
       event.preventDefault();
       gun.set($("input").val());
