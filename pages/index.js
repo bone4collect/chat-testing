@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div>
       
-      <h1>To Do App</h1>
+      <h1>chat app</h1>
       <form>
         <input /> <button>Thoughts</button>
       </form>
